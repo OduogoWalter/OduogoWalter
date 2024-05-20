@@ -56,3 +56,12 @@ As a Full Stack Software Engineer and Technical Project Manager, I thrive on the
 ## Top Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OduogoWalter&layout=compact)
+
+## GitHub Stats
+
+[![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=OduogoWalter&show_icons=true&theme=default)](https://github.com/anuraghazra/github-readme-stats)
+
+## Top Languages
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OduogoWalter&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
