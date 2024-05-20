@@ -48,11 +48,3 @@ As a Full Stack Software Engineer and Technical Project Manager, I thrive on the
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OduogoWalter)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Taall_Dark)
-
-## GitHub Stats
-
-![Walter Oduogo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=OduogoWalter&show_icons=true&theme=radical)
-
-## Top Languages
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OduogoWalter&theme=radical)
