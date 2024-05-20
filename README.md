@@ -24,7 +24,7 @@ As a Full Stack Software Engineer and Technical Project Manager, I thrive on the
 ## Socials
 
 - [GitHub](https://github.com/OduogoWalter)
-- [Twitter](https://twitter.com/WalterOduogo)
+- [Twitter](https://twitter.com/Taall_Dark)
 
 ## GitHub Stats
 
