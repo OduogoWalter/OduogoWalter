@@ -56,38 +56,3 @@ As a Full Stack Software Engineer and Technical Project Manager, I thrive on the
 ## Top Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OduogoWalter&layout=compact)
-
-import requests
-from collections import Counter
-
-def get_repository_languages(username):
-    url = f"https://api.github.com/users/{username}/repos"
-    headers = {"Accept": "application/vnd.github.v3+json"}
-    response = requests.get(url, headers=headers)
-    
-    languages = []
-    if response.status_code == 200:
-        repositories = response.json()
-        for repo in repositories:
-            repo_languages_url = repo["languages_url"]
-            languages_response = requests.get(repo_languages_url, headers=headers)
-            if languages_response.status_code == 200:
-                languages.extend(list(languages_response.json().keys()))
-    
-    return languages
-
-def generate_badge_url(language, percentage):
-    return f"https://img.shields.io/badge/{language}-{percentage}%20-green?style=for-the-badge&logo={language}&logoColor=white"
-
-def main(username):
-    languages = get_repository_languages(username)
-    language_counts = Counter(languages)
-    
-    for language, count in language_counts.items():
-        percentage = round(count / len(languages) * 100, 2)
-        badge_url = generate_badge_url(language, percentage)
-        print(f"![{language}]({badge_url})")
-
-if __name__ == "__main__":
-    username = "OduogoWalter"
-    main(username)
